@@ -6,9 +6,8 @@
   * Return: ALways 0
   */
 int main(void)
-{
-	int a = 0;
-	long b = 1, c= 2;
+{	int a = 0;
+	long b = 1, c = 2;
 
 	while (a < 50)
 	{
@@ -24,8 +23,4 @@ int main(void)
 		}
 
 		++a;
-	}
-
-	printf("\n");
-return (0);
 }
