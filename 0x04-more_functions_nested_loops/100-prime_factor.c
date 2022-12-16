@@ -8,15 +8,20 @@
   */
 int main(void)
 {
-	long x, prime_number;
-	long number = 612852475143;
-	double square = sqrt(number);
+	long prime_number = 612852475143, num;
 
-	for (x = 1; x <= square; x++)
+	while (num < (prime_number / 2))
 	{
-		if (number % x == 0)
+		if ((prime_number % 2) == 0)
 		{
-			prime_number= number / x;
+			prime_number /= 2;
+			continue;
+		}
+
+		for (num = 3; num < (prime_number / 2); num += 2)
+		{
+			if ((prime_number % num) == 0)
+				prime_number /= num;
 		}
 	}
 
