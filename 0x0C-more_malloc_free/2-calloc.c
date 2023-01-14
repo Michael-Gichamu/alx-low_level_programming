@@ -11,12 +11,13 @@
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i = 0, totalsize = 0;
+	int i = 0, totalsize;
 	char *p;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 
+	totalsize = nmemb * size;
 	p = malloc(totalsize);
 
 	if (p == NULL)
