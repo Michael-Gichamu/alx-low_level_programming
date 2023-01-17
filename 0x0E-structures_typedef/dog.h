@@ -1,21 +1,18 @@
-#ifndef _DOG_H
-#define _DOG_H
-
+#ifndef _HEADER_FILE_
+#define _HEADER_FILE_
 /**
- * struct dog - Dog credits
- * @name: Name of the dog.
- * @age: Age of the dog.
- * @owner: Owner of the dog.
+ * struct dog - Dog traits
+ * @name: Name of the dog
+ * @age: Age of the dog
+ * @owner: Owner of the dog
  *
- * Description: Dog credits.
+ * Description: Dog traits
  */
-
-struct dog
+struct 
 {
 	char *name;
 	float age;
 	char *owner;
-}
-
+};
 #endif
 
