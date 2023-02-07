@@ -3,9 +3,8 @@
 
 /**
   * binary_to_uint - Converts a binary number to an unsigned int
-  * @b: The binary string to converts
-  *
-  * Return: The positive number converted from a binary
+  * @b: The binary string to convert
+  * Return: The positive converted number.
   */
 unsigned int binary_to_uint(const char *b)
 {
