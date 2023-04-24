@@ -3,6 +3,7 @@
 /**
  * bubble_sort - Sorts an array of intengers in ascending order
  *		 prints array after each time you swap two elements.
+ *
  * @array: Array to swap.
  * @size: size of the array.
  *
